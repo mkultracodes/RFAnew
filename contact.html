@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!--CAROUSEL CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js" defer></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" defer></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/collage.css">
+    <link rel="stylesheet" href="css/registration.css">
+
+    <!--tab icon-->
+    <link rel="icon" href="./img/logo.png">
+
+    <title>Rockville Fencing Academy</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+
+            <div class="col-8 d-block d-sm-none">
+                <a class="nav-link d-block d-sm-none" href="./index.html"><img src="img/logo_black.png" style="width:100%;"></a>
+            </div>
+            <div class="col d-block d-sm-none"></div>
+            <div class="col-2 d-block d-sm-none">
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            
+            <div class ="row">
+            <div class="col-sm-4">
+                <a class="navbar-brand mr-auto img-fluid d-none d-md-block" href="./index.html"><img src="img/logo_black.png" class="img-fluid"></a>
+            </div>
+                <div class="col-sm-8 collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item d-block d-sm-none"><a class="nav-link" href="./index.html"><img src="img/logo.png" class="img-fluid"></a></li> -->
+                        <li class="nav-item d-block d-sm-none"><a class="nav-link" href="./index.html"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./beginners.html"> Registration</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./members.html"> Members Info</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutusrfa.html"> About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./contact.html"> Contact</a></li>
+                    </ul>
+                </div>    
+            </div>        
+        </div>
+    </nav>
+
+    <!--jumbotron-->
+    <header> 
+      <div class="jumbotron regulars contactregulars trans">
+
+
+          </div>
+
+  </header>
+  
+<!--main content area-->
+<!--first row-->
+<div class="main container" id="beforeFooter">
+    <div class="row row-content" >
+        <div class="col"></div>
+        <div class="col-9 align-content-center text-center">
+            <h1 class="mt-0 topped" style="border-bottom:3px solid gray; padding:15px; margin-bottom:25px;" >Contact Us</h1>
+                    <p style="font-size:larger">We would love to hear from you! 
+                        </br>
+                        If you have any questions, please do not hesitate to send us a message.</p>
+                    </br>
+        </div>
+        <div class="col"></div>
+    </div>
+    <!--Message Card/Form-->
+    <div class="row row-content align-items-center 	d-none d-md-block" >
+        <div class="col">
+            <div class="card">
+    <!--<h3 class="card-header messageCard">Reserve a Table</h3>-->
+            <div class="card-body" style="background-color:gray; border-radius: 5px;">
+                <form id="messageform" action="https://getform.io/f/68bda5f8-8e1b-4ad8-b2aa-de8df4136e70" method="POST" enctype='multipart/form-data'>
+                    <div class="media">
+                        
+                    <div class="media-body">
+                    
+                    <div class="form-group row">
+                        <div class="col-11">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Name">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-11">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-control-lg" id="email" name="email " placeholder="Email Address">
+                            </div>
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-11">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-control-lg" id="phone" name="phone" placeholder="Phone Number">
+                            </div>
+                            </div>
+                    </div>
+
+                    </div>
+
+                    <div class="col-6">
+                        <div class="form-group row">
+                            <div class="col-12 align-self-end">
+                            <textarea rows="6" class="form-control form-control-lg" name="comment"  required="required" placeholder="Write Your Message Here--"></textarea>
+                            </div>
+
+                            <div class="col-11 text-right" style="padding-top:20px;">
+                                <button id="whiteButton" type="submit" class="btn" id="submitButton">Submit</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+
+                    <!-- <div class="col-12 d-md-none d-lg-none d-xl-none">
+                        <div class="form-group row">
+                            <div class="col-12 align-self-end">
+                            <textarea rows="6" class="form-control" name="comment"  required="required" placeholder="Write Your Message Here!"></textarea>
+                            </div>
+                            
+                            <div class="col-11 text-right d-md-none d-lg-none d-xl-none" style="padding-top:10px;">
+                                <button id="whiteButton" type="submit" class="btn" id="submitButton">Submit</button>
+                            </div>
+
+                        </div>
+                    </div>
+ -->
+                </div>
+                
+                </form>
+            </div>
+
+
+                </div>
+                
+            </div>
+        </div>
+<!--smaller form view-->
+        <div class="row row-content align-items-center d-md-none d-lg-none d-xl-none">
+            <div class="col">
+                <div class="card">
+        <!--<h3 class="card-header messageCard">Reserve a Table</h3>-->
+                <div class="card-body" style="background-color:gray; border-radius: 5px;"  class=" d-none d-md-block d-lg-block d-xl-block">
+                    <form id="messageform" action="https://getform.io/f/68bda5f8-8e1b-4ad8-b2aa-de8df4136e70" method="POST" enctype='multipart/form-data'>
+                        <div class="media">
+                            
+                        <div class="media-body">
+                        
+                        <div class="form-group row">
+                            <div class="col-11">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-11">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="email" name="email " placeholder="Email Address">
+                                </div>
+                                </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-11">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number">
+                                </div>
+                                </div>
+                        </div>
+    
+                        <div class="form-group row">
+                            <div class="col-11">
+                                <div class="input-group">
+                                <textarea rows="6" class="form-control" name="comment"  required="required" placeholder="Write Your Message Here--"></textarea>
+                                </div>
+                                </div>
+                        </div>
+
+                        
+                        <div class="form-group row">
+                            <div class="col-11">
+                                <div class="input-group">
+                                <button id="whiteButton" type="submit" class="btn" id="submitButton">Submit</button>
+                                </div>
+                                </div>
+                        </div>
+
+                        </div>  
+
+                    </div>
+                    
+                    </form>
+                </div>
+    
+    
+                    </div>
+                    
+                </div>
+            </div>
+
+<!--end-->
+</div>
+
+<!--scroll to top btn-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up fa-lg" aria-hidden="true"></i></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</body>
+
+<footer class="footer">
+    <div class ="container">
+       <div class ="row justify-content-center" style="font-size:large">             
+            <div class="col-sm-6 offset-sm-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <i class="top fa fa-map-marker fa-lg"></i> &nbsp; 15221 Display Court <br>  &nbsp;  &nbsp;  &nbsp; Rockville, MD 20850 <br>
+                        <i class="top fa fa-envelope fa-md"></i> &nbsp;   
+                        <a href="mailto:RFA_Fencing@outlook.com">RFA_Fencing@outlook.com</a> <br>
+                        <i class="top fa fa-phone fa-lg"></i> &nbsp; (240) 778-2823
+                    </li>
+                </br>
+                    <li class="nav-item">
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/people/Rockville-Fencing-Academy/100038169861726/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/ContactRfa" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=OfhCFCGdUgo" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/rockville-fencing-academy-rockville" target="_blank"><i class="fa fa-yelp"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 d-none d-md-block">
+                <a class="navbar-brand mr-auto img-fluid d-none d-md-block" href="./index.html"><img src="img/logo_black.png" class="img-fluid"></a>
+                <p style="font-size:x-small; float:center">© 2019 RFA</p>
+            </div>
+       </div>
+    </div>
+</footer>
+</html>

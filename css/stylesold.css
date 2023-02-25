@@ -1,0 +1,407 @@
+body{
+   background-color: white;
+}
+
+.first{
+    margin-bottom: 40px;
+}
+
+    @media (min-width: 770px) { 
+        .fb {
+            width:125%;
+        }
+        }
+        @media (max-width: 768px) { 
+            .fb {
+                width:100%;
+                padding-bottom:50px;
+            }
+            }
+    
+
+/* .fb{
+    border:2px solid gray;
+    background-color: black;
+    border-radius: 2%;
+    margin-bottom:25px;
+    padding:10px;
+    align-content:center;
+} */
+
+br.responsive {
+    display: inline;
+  }
+  
+  @media (min-width: 768px) { 
+    br.responsive {
+        display: none; 
+      }
+    }
+
+#aboutbottom{
+    background-color: #13568d;
+    color:white;
+    min-height:270px;
+    border:3px dotted white;
+    padding-top:15px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) { 
+    #aboutbottom{
+        min-height:100px;
+      }
+    }
+
+#aboutbottom2{
+    background-color: white;
+    border:3px dotted white;
+    padding-top:15px;
+    min-height:0px;
+    font-size: 20px;
+}
+
+.jumbotron{
+    padding-top: 20px;
+    margin-top: -30px;
+/*     border: 5px solid red; */
+
+background-image: url("../img/jumbotron_fencinglg2.png");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+color: floralwhite;
+height: 300px;
+font-size:larger;
+text-shadow: 2px 1px 5px black;
+}
+
+@media (max-width: 1024px) { 
+    .jumbotron{
+        margin-top: -50px;
+      }
+    } 
+
+    @media (max-width: 768px) { 
+        .jumbotron{
+            margin-top: -75px;
+          }
+        } 
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; }
+  
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 5px; }
+
+  body {
+    padding: 150px 0px 0px 0px;
+    z-index: 0; }
+  
+.navbar {
+    background-color: black; 
+    padding-right:20px;
+    font-size:20px;
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+ }
+
+ .navbar li{
+    font-size:large;
+ }
+
+ @media (max-width: 1024px) { 
+    .navbar li{
+        color:black;
+        padding-left:10px;
+        font-size:small;
+      }
+    }
+
+    @media (max-width: 768px) { 
+        .navbar li{
+            color:black;
+            font-size:xx-small;
+          }
+        }
+
+.navbar a{
+    color:white;
+    font-weight: bold;
+}
+
+.navbar .active{
+    color:goldenrod;
+    border-left: 2px solid goldenrod;
+    padding-left: 5%;
+}
+
+.navbar li a:hover{
+    color:goldenrod;
+}
+
+.navbar img{
+    width:75%;
+}
+
+@media (max-width: 425px) { 
+    .navbar .active{
+        color:goldenrod;
+        padding-left:10px;
+      }
+    }
+
+@media (max-width: 425px) { 
+    .navbar a{
+        font-size:large;
+        }
+    }
+
+@media (max-width: 425px) { 
+    .navbar{
+        font-weight:none;
+      }
+    }
+
+#titles{
+    border-bottom: 2px solid #13568d;
+    padding-bottom:5px;
+}
+
+.navbar li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.navbar img{
+/*     height:100px;
+    width:400px; */
+    padding:none;
+}
+
+.media img{
+    max-width:60%;
+}
+
+#submitButton{
+    margin-top:10px;
+}
+
+.textarea {	 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;	 
+    width: 100%;} 
+
+#beforeFooter{
+    padding-bottom:125px;
+    margin-bottom:25px;
+}
+
+@media (max-width: 768px) { 
+    #bottomThumbnail{
+        font-size:x-large;
+      }
+    }
+
+/* .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px black;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px black;
+    }
+  }
+ */
+  
+
+
+/* #welcomeContainers{
+    background-color:#021201; 
+    margin-top:-32px; 
+    margin-bottom:-2px; 
+    color:white; 
+    font-weight:bold; 
+    font-size:x-large;
+} */
+
+.main{
+    font-size:large;
+}
+
+#enrollButton{
+    background-color: goldenrod;
+    font-weight:bold;
+    border-radius:10px;
+    border: none;
+}
+
+#enrollButton a{
+    color:black;
+}
+
+#enrollButton a:hover{
+    font-size:larger;
+}
+
+footer{
+    background-color: black;
+    margin: 0px auto;
+    padding-top: 25px;
+    padding-bottom:50px;
+    color:white;
+    background-size: 100% 100%;
+ } 
+
+footer img{
+width:80%;
+float:center;
+}
+
+footer li{
+/* border:1px solid black; */
+margin-bottom:-5px;
+}
+
+footer li a{
+color:white;
+}
+
+footer li a:hover{
+    color:goldenrod;
+    font-weight: 1000;
+}
+
+footer img{
+    width:75%;
+}
+
+/*footer links in mobile view*/
+@media (max-width: 425px) { 
+    footer li{
+        text-align: center;
+        }
+}
+
+
+/* coaches page tablet background pics */
+@media (max-width: 768px) { 
+    .tabletpic1{
+        background-image: url("../img/bkng1.jpg");
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        }
+    .tabletpic2{
+        background-image: url("../img/bkng2.jpg");
+        height: 100%;
+        /* Center and scale the image nicely  */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }
+    .tabletpic3{
+        background-image: url("/img/Picture1.jpg");
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+}
+
+.chain{
+    border:1px solid blue;
+    border-radius: 10px;
+    padding:1%;
+    text-align: center;
+    margin:1.5%;
+}
+
+@media (max-width: 1440px) { 
+    .infographic{
+        width: 110%;
+        }
+}
+
+.border{
+    border:1px solid red;
+}
+
+
+.top{
+    margin-top:15px;
+}
+
+/*divpics*/
+
+.divpics{
+    padding:3%;
+    /* border:2px solid red; */
+    /* font-size: smaller; */
+    height:900px;
+}
+
+@media (max-width: 769px) { 
+    .divpics{
+        padding:3%;
+        /* border:2px solid red; */
+        /* font-size: smaller; */
+        height:700px;
+    }
+}
+
+#pics{
+    /* border:2px solid green; */
+    border-radius: 50%;
+    height:250px;
+}
+
+.piccontent{
+    padding:7.5%;
+}
+
+@media (max-width: 769px) { 
+    .aboutusmobile{
+        height:675px;
+        padding-top:20px;
+    }
+}
+
+
+@media (min-width: 769px) { 
+    .bkgnd{
+        background-color:rgba(240, 207, 123, 0.637);
+    }
+}
+
+@media (min-width: 769px) { 
+    .coachesmarginsleft{
+        margin-left: 20%;
+    }
+}
+
+
+@media (min-width: 769px) { 
+    .coachesmarginsright{
+        margin-right: 20%;
+    }
+}

@@ -1,0 +1,42 @@
+.smaller{
+    height:350px;
+}
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    margin-top: -30px;
+    height:700px;
+  }
+
+  @media (max-width: 375px) { 
+    .jumbotron{
+        margin-top: -50px;
+      }
+    }
+
+  .regulars{
+/*     border: 5px solid red; */
+
+    background-image: url("../img/jumbo3.png");
+        /* Full height */
+        height: 100%; 
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    color: floralwhite;
+    height: 475px;;
+    font-size:larger;
+    text-shadow: 2px 1px 5px black;
+
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    margin-top: -50px;
+    height:350px;
+    text-align:center; 
+    padding-top:100px;
+}

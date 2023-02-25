@@ -1,0 +1,589 @@
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+        background-color: black;
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.trans{
+    animation: transitionIn 1.25s;
+}
+
+body{
+   background-color: white;
+}
+
+.first{
+    margin-bottom: 40px;
+}
+
+    @media (min-width: 770px) { 
+        .fb {
+            width:125%;
+        }
+        }
+        @media (max-width: 768px) { 
+            .fb {
+                width:200%;
+                margin-bottom:50px;
+            }
+            }
+    
+
+  .fb{
+    border:1px solid rgb(204, 204, 204);
+/*     background-color: black; */
+    border-radius: 2%;
+/*     margin-bottom:25px; */
+/*     padding:10px; */
+    align-content:center;
+}  
+
+br.responsive {
+    display: inline;
+  }
+  
+  @media (min-width: 768px) { 
+    br.responsive {
+        display: none; 
+      }
+    }
+
+#aboutbottom{
+    background-color: #13568d;
+    color:white;
+    min-height:270px;
+    border:3px dotted white;
+    padding-top:15px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) { 
+    #aboutbottom{
+        min-height:100px;
+      }
+    }
+
+#aboutbottom2{
+    background-color: white;
+    border:3px dotted white;
+    padding-top:15px;
+    min-height:0px;
+    font-size: 20px;
+}
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    margin-top: -30px;
+    height:700px;
+  }
+
+  .regulars{
+    padding-top: 150px;
+/*     border: 5px solid red; */
+
+    background-image: url("../img/jumbo2.png");
+        /* Full height */
+        height: 100%; 
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    color: floralwhite;
+    font-size:larger;
+    text-shadow: 2px 1px 5px black;
+
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    margin-top: -30px;
+    height:350px;
+    text-align:center; 
+    padding-top:100px;
+}
+
+.contactregulars{
+    background-image: url("../img/jumbo3.png");
+}
+  .jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+/*     opacity:0.5; */
+  }
+  .jumbotron .container {
+    z-index: 2;
+    position: relative;
+  }
+
+@media (min-width: 769px) { 
+    .jumbotron{
+        margin-top: -50px;
+      }
+    } 
+
+    @media (max-width: 768px) { 
+        .jumbotron{
+            margin-top: -100px;
+          }
+        } 
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; }
+  
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 5px; }
+
+  body {
+    padding: 150px 0px 0px 0px;
+    z-index: 0; }
+  
+.navbar {
+    background-color: black; 
+    padding-right:20px;
+    font-size:20px;
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+ }
+
+ .navbar li{
+    font-size:large;
+ }
+
+ @media (max-width: 1024px) { 
+    .navbar li{
+        color:black;
+        padding-left:10px;
+        font-size:small;
+      }
+    }
+
+    @media (max-width: 768px) { 
+        .navbar li{
+            color:black;
+            font-size:xx-small;
+          }
+        }
+
+.navbar a{
+    color:white;
+    font-weight: bold;
+}
+
+.navbar .active{
+    color:goldenrod;
+    border-left: 2px solid goldenrod;
+    padding-left: 5%;
+}
+
+.navbar li a:hover{
+    color:goldenrod;
+}
+
+.navbar img{
+    width:75%;
+}
+
+@media (max-width: 425px) { 
+    .navbar .active{
+        color:goldenrod;
+        padding-left:10px;
+      }
+    }
+
+@media (max-width: 425px) { 
+    .navbar a{
+        font-size:large;
+        }
+    }
+
+@media (max-width: 425px) { 
+    .navbar{
+        font-weight:none;
+      }
+    }
+
+#titles{
+    border-bottom: 2px solid #13568d;
+    padding-bottom:5px;
+}
+
+.navbar li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.navbar img{
+/*     height:100px;
+    width:400px; */
+    padding:none;
+}
+
+.media img{
+    max-width:60%;
+}
+
+#submitButton{
+    margin-top:10px;
+}
+
+.textarea {	 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;	 
+    width: 100%;} 
+
+#beforeFooter{
+    padding-bottom:125px;
+    margin-bottom:25px;
+}
+
+@media (max-width: 768px) { 
+    #bottomThumbnail{
+        font-size:x-large;
+      }
+    }
+
+/* .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px black;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px black;
+    }
+  }
+ */
+  
+
+
+/* #welcomeContainers{
+    background-color:#021201; 
+    margin-top:-32px; 
+    margin-bottom:-2px; 
+    color:white; 
+    font-weight:bold; 
+    font-size:x-large;
+} */
+
+.main{
+    font-size:large;
+}
+
+#enrollButton{
+    background-color: goldenrod;
+    font-weight:bold;
+    border-radius:10px;
+    border: none;
+}
+
+#enrollButton a{
+    color:black;
+}
+
+#enrollButton a:hover{
+    font-size:larger;
+}
+
+#otherButton{
+    background-color: goldenrod;
+    font-weight:bold;
+    border-radius:10px;
+    border: none;
+}
+
+#otherButton a{
+    color:black;
+}
+
+#otherButton a:hover{
+    color:white;
+}
+
+#PPButton{
+    background-color: goldenrod;
+    border-radius:10px;
+    border: none;
+}
+
+footer{
+    background-color: black;
+    margin: 0px auto;
+    padding-top: 25px;
+    padding-bottom:50px;
+    color:white;
+    background-size: 100% 100%;
+ } 
+
+footer img{
+width:80%;
+float:center;
+}
+
+footer li{
+/* border:1px solid black; */
+margin-bottom:-5px;
+}
+
+footer li a{
+color:white;
+}
+
+footer li a:hover{
+    color:goldenrod;
+    font-weight: 1000;
+}
+
+footer img{
+    width:75%;
+}
+
+/*footer links in mobile view*/
+@media (max-width: 425px) { 
+    footer li{
+        text-align: center;
+        }
+}
+
+
+/* coaches page tablet background pics */
+@media (max-width: 768px) { 
+    .tabletpic1{
+        background-image: url("../img/bkng1.jpg");
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        }
+    .tabletpic2{
+        background-image: url("../img/bkng2.jpg");
+        height: 100%;
+        /* Center and scale the image nicely  */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }
+    .tabletpic3{
+        background-image: url("/img/Picture1.jpg");
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+}
+
+.chain{
+    border:1px solid blue;
+    border-radius: 10px;
+    padding:1%;
+    text-align: center;
+    margin:1.5%;
+}
+
+@media (max-width: 1440px) { 
+    .infographic{
+        width: 110%;
+        }
+}
+
+.border{
+    border:1px solid red;
+}
+
+
+.top{
+    margin-top:15px;
+}
+
+/*divpics*/
+
+.divpics{
+    padding:3%;
+    /* border:2px solid red; */
+    /* font-size: smaller; */
+    
+}
+
+
+#pics{
+    /* border:2px solid green; */
+    /* border-radius: 50%; */
+    height:250px;
+    border-radius: 10%;
+}
+
+.piccontent{
+    padding:5%;
+}
+
+.coachnames{
+    font-size:x-large;
+    font-weight: 650;
+}
+
+@media (max-width: 769px) { 
+    .aboutusmobile{
+        height:675px;
+        padding-top:20px;
+    }
+}
+
+
+/* @media (min-width: 769px) { 
+    .bkgnd{
+        background-color:rgba(240, 207, 123, 0.637);
+    }
+} */
+
+/* @media (min-width: 769px) { 
+    .coachesmarginsleft{
+        margin-left: 20%;
+    }
+}
+
+
+@media (min-width: 769px) { 
+    .coachesmarginsright{
+        margin-right: 20%;
+    }
+} */
+
+.fadeinone
+{ 
+    animation: fadeIn 2s; 
+    font-family: 'Georgia', cursive;
+}
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    66% { opacity:0; }
+    100% { opacity: 1; }
+  }
+
+/* .fadeinone{
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein 1s;
+    animation: 2s ease 1s normal forwards 1 faden 7s;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+} */
+
+#whiteButton{
+    background-color: white;
+    font-weight:bold;
+    font-size:medium;
+    border-radius:10px;
+    border: none;
+}
+
+.input-group{
+    padding:1px;
+}
+
+.topped{
+    font-size:1.75em;
+    padding: 5px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.form-group{
+    font-size:1em;
+}
+
+.form-control-lg{
+    font-size:large;
+}
+
+.links a{
+    color:white;
+}
+
+.links a:hover{
+    font-weight: bold;
+    color:goldenrod;
+}
+
+.anchor {
+    position: absolute;
+    top: -100px; /* given the fixed header is 50px tall, and you want 15px padding */
+    padding-top: 5%;
+  }
+
+  #pads{
+    padding-bottom:50px;
+    margin-bottom:5px;
+}
+
+.event{
+    margin-bottom:2.5%;
+    background-color: rgb(215, 215, 215);
+    border-radius:10px;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.event:hover{
+    /* background-color: gray; */ 
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.224);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgba(85, 85, 85, 0.445);
+  }
+
+.ages{
+    list-style-type: none;
+}
